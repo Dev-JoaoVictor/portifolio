@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-body: #1f1e1e
+}
+
+body {
+  background-color: var(--bg-body);
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  margin-top: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+ion-icon {
+  color: white;
+  font-size: 2rem;
+}
+
+.menu {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+

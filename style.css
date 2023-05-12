@@ -48,6 +48,10 @@ button {
   font-size: 3rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .menu{
   visibility: hidden;
   position: absolute;

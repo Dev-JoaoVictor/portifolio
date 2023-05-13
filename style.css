@@ -91,12 +91,12 @@ nav.active .menu{
 
 main {
   margin: 5rem 2rem;
-  border: 1px solid red;
-  height: 500px;
   text-align: center;
   color: var(--theme);
   padding: 3rem;
 }
+
+/*Seção sobre*/
 
 .foto-perfil img{
   padding: 1rem;
@@ -113,6 +113,28 @@ main {
   margin-top: 2rem;
   font-size: 1.6rem;
   color: rgb(177, 172, 172);
+}
+
+ /*Skills*/
+
+.skills {
+  margin-top: 10rem;
+}
+
+.skills h2 {
+  font-size: 2rem;
+}
+
+.skills-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.skills-img ion-icon {
+  font-size: 3rem;
+  color: var(--theme);
 }
 
 

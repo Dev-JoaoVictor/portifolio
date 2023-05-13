@@ -127,14 +127,23 @@ main {
 
 .skills-img {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem;
   gap: 1rem;
 }
 
 .skills-img ion-icon {
-  font-size: 3rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-radius: 1rem;
   color: var(--theme);
+  transition: ease .6s;
+}
+
+.skills-img ion-icon:hover {
+  background-color: white;
+  color: black;
 }
 
 

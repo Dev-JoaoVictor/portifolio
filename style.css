@@ -53,7 +53,9 @@ button {
   display: none;
 }
 
-.menu{
+.menu {
+  display: flex;
+  justify-content: center;
   visibility: hidden;
   position: absolute;
   left: 0;
@@ -69,7 +71,6 @@ button {
 }
 
 .menu a {
-  display: block;
   margin: 0 1rem;
   padding: 1rem 0;
   color: var(--theme);
@@ -78,13 +79,16 @@ button {
 }
 
 .menu a:hover {
-  border-bottom: 1px solid white
+  font-weight: bold;
+  border-bottom: 1px solid white;
 }
 
-nav.active .menu{
+nav.active .menu {
+  display: flex;
+  justify-content: center;
   padding-top: 2rem;
   visibility: visible;
-  height: calc(100vh - 7rem);
+  height: 7rem;
 }
 
 /*Main*/
@@ -98,11 +102,11 @@ main {
 
 /*Seção sobre*/
 
-.foto-perfil img{
+.foto-perfil img {
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 50%;
-  width: 20rem
+  width: 20rem;
 }
 
 .sobre-texto {
@@ -115,7 +119,7 @@ main {
   color: rgb(177, 172, 172);
 }
 
- /*Skills*/
+/*Skills*/
 
 .skills {
   margin-top: 10rem;
@@ -138,12 +142,10 @@ main {
   padding: 1rem;
   border-radius: 1rem;
   color: var(--theme);
-  transition: ease .6s;
+  transition: ease 0.6s;
 }
 
 .skills-img ion-icon:hover {
   background-color: white;
   color: black;
 }
-
-

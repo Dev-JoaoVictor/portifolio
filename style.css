@@ -14,7 +14,7 @@
   --ft-link: var(--theme-dark);
   --ft-link-hover: var(--theme-dark);
   --ft-main: var(--theme-dark);
-  --color-icon-hover: var(--theme-light);
+  --color-icon-hover: black;
 
   --bg-icon-hover: var(--theme-dark);
   --bg-body: #1f1e1e;

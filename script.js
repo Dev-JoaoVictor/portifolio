@@ -1,5 +1,10 @@
 const btnMenu = document.querySelector('.btn-menu')
 
+const body = document.documentElement
+const buttonMoon = document.querySelector('.theme-dark-button')
+const buttonSun = document.querySelector('.theme-light-button')
+
+
 
 function toggleMenu() {
   const btnOpen = document.querySelector('.btn-open')
@@ -11,5 +16,13 @@ function toggleMenu() {
 
 }
 
+function toggleTheme() {
+  body.classList.toggle('light')
+  buttonMoon.classList.toggle('hidden')
+  buttonSun.classList.toggle('hidden')
+}
+
 
 btnMenu.addEventListener('click', toggleMenu)
+buttonMoon.addEventListener('click', toggleTheme)
+buttonSun.addEventListener('click', toggleTheme)

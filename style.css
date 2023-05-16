@@ -131,6 +131,8 @@ nav.active .menu {
 /*Main*/
 
 main {
+  display: grid;
+  gap: 10rem;
   margin: 5rem 2rem;
   text-align: center;
   color: var(--ft-main);
@@ -157,13 +159,8 @@ main {
 }
 
 /*Skills*/
-
-.skills {
-  margin-top: 10rem;
-}
-
-.skills h2 {
-  font-size: 2rem;
+ h2 {
+  font-size: 3rem;
 }
 
 .skills-img {
@@ -186,3 +183,28 @@ main {
   background-color: var(--bg-icon-hover);
   color: var(--color-icon-hover);
 }
+
+
+/*Projetos*/
+.projetos {
+  display: grid;
+  gap: 2rem;
+}
+
+.card-projetos img {
+  width: 35rem;
+  border-radius: 10px;
+  padding: 3rem;
+  
+    
+}
+
+.card-projetos:hover {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
+  box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
+  transition: ease 1s;
+  transform: scale(1.1);
+}
+

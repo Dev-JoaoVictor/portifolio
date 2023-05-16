@@ -2,17 +2,22 @@ import { Controls } from "./js/controls.js";
 import { Events } from "./js/events.js";
 import {
   body,
-  nav,
   btnMenu,
   btnOpen,
   btnClose,
   buttonMoon,
   buttonSun,
+  nav,
 } from "./js/elements.js";
 
 const controls = Controls({
-  body, buttonMoon, buttonSun
-})
+  body,
+  nav,
+  buttonMoon,
+  buttonSun,
+  btnOpen,
+  btnMenu,
+  btnClose,
+});
 
-Events({controls})
-
+Events({ controls });

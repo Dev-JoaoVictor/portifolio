@@ -8,13 +8,35 @@
 :root {
   font-size: 62.5%;
 
-  --theme: #ffffff;
+  --theme-dark: #ffffff;
 
+  --ft-header: var(--theme-dark);
+  --ft-link: var(--theme-dark);
+  --ft-link-hover: var(--theme-dark);
+  --ft-main: var(--theme-dark);
+  --color-icon-hover: var(--theme-light);
+
+  --bg-icon-hover: var(--theme-dark);
   --bg-body: #1f1e1e;
   --bg-header: #202020;
 
-  --color-btn: var(var(--theme));
-  --ft-header: var(--theme);
+  --color-btn: var(--theme-dark);
+}
+
+.ligth {
+  --theme-light: black;
+
+  --ft-header: var(--theme-light);
+  --ft-link: var(--theme-light);
+  --ft-link-hover: var(--theme-light);
+  --ft-main: var(--theme-light);
+  --color-icon-hover: var(--theme-dark);
+
+  --bg-icon-hover: var(--theme-light);
+  --bg-body: #eeeeee;
+  --bg-header: #eeeeee;
+
+  --color-btn: var(--theme-light);
 }
 
 body {
@@ -28,6 +50,7 @@ header {
   display: flex;
   padding: 1rem;
   height: 7rem;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
 
@@ -36,6 +59,16 @@ header {
   -webkit-box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
   -moz-box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
   box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
+}
+
+.theme ion-icon {
+  margin-left: 10rem;
+  margin-top: 0.3rem;
+  font-size: 3rem;
+}
+
+.theme-dark-button {
+  font-size: 0.5rem;
 }
 
 button {
@@ -73,14 +106,14 @@ button {
 .menu a {
   margin: 0 1rem;
   padding: 1rem 0;
-  color: var(--theme);
+  color: var(--ft-link);
   font-size: 2rem;
   text-decoration: none;
 }
 
 .menu a:hover {
   font-weight: bold;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--ft-link-hover);
 }
 
 nav.active .menu {
@@ -96,7 +129,7 @@ nav.active .menu {
 main {
   margin: 5rem 2rem;
   text-align: center;
-  color: var(--theme);
+  color: var(--ft-main);
   padding: 3rem;
 }
 
@@ -146,6 +179,6 @@ main {
 }
 
 .skills-img ion-icon:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--bg-icon-hover);
+  color: var(--color-icon-hover);
 }

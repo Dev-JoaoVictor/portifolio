@@ -168,6 +168,7 @@ main {
 
 .skills-img {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
 }
@@ -181,39 +182,19 @@ main {
 .projetos {
   display: grid;
   place-content: center;
-  gap: 4rem;
-}
-
-.card-projetos {
-  padding: 2rem;
-  border-radius: 8px;
-  transition: ease 0.3s;
-}
-
-.card-projetos:hover {
-  transform: scale(1.1);
-  -webkit-box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
-  -moz-box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
-  box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
 }
 
 .card-projetos img {
-  width: 100%;
+  width: 30rem;
   border-radius: 8px;
 }
 
-.card-text {
+.card-description {
   display: grid;
+  gap: 0.5rem;
   font-size: 1.5rem;
-  gap: 1rem;
-  text-align: center;
 }
 
-.card-title a{
-  color: var(--ft-link-card);
-  margin-top: 1rem;
-  font-size: 2rem;
-}
 
 
 

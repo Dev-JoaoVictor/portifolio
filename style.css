@@ -14,6 +14,7 @@
   --ft-link: var(--theme-dark);
   --ft-link-hover: var(--theme-dark);
   --ft-main: var(--theme-dark);
+  --ft-link-card: var(var(--theme-dark));
   --color-icon-hover: black;
 
   --bg-icon-hover: var(--theme-dark);
@@ -29,6 +30,7 @@
   --ft-header: var(--theme-light);
   --ft-link: var(--theme-light);
   --ft-link-hover: var(--theme-light);
+  --ft-link-card: var(var(--theme-dark));
   --ft-main: var(--theme-light);
   --color-icon-hover: var(--theme-dark);
 
@@ -161,46 +163,31 @@ main {
 /*Skills*/
  h2 {
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .skills-img {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 
-.skills-img ion-icon {
-  font-size: 4rem;
-  padding: 1rem;
-  border-radius: 1rem;
-  color: var(--theme);
-  transition: ease 0.6s;
+.skills-img svg {
+  width: 4rem;
+  height: 4rem;
 }
-
-.skills-img ion-icon:hover {
-  background-color: var(--bg-icon-hover);
-  color: var(--color-icon-hover);
-}
-
 
 /*Projetos*/
 .projetos {
   display: grid;
   place-content: center;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .card-projetos {
   padding: 2rem;
   border-radius: 8px;
   transition: ease 0.3s;
-}
-
-.card-projetos img {
-  width: 100%;
-  border-radius: 8px;
 }
 
 .card-projetos:hover {
@@ -210,6 +197,11 @@ main {
   box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
 }
 
+.card-projetos img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 .card-text {
   display: grid;
   font-size: 1.5rem;
@@ -217,13 +209,10 @@ main {
   text-align: center;
 }
 
-.card-title {
+.card-title a{
+  color: var(--ft-link-card);
   margin-top: 1rem;
   font-size: 2rem;
-}
-
-.card-projetos {
-
 }
 
 

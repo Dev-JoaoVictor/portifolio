@@ -14,13 +14,13 @@
   --ft-link: var(--theme-dark);
   --ft-link-hover: var(--theme-dark);
   --ft-main: var(--theme-dark);
-  --ft-link-card: var(var(--theme-dark));
   --ft-about-text: #b1acac;
   --color-icon-hover: black;
 
   --bg-icon-hover: var(--theme-dark);
   --bg-body: #1f1e1e;
   --bg-header: #202020;
+  --bg-card-link: var(--theme-dark);
 
   --color-btn: var(--theme-dark);
 }
@@ -31,7 +31,6 @@
   --ft-header: var(--theme-light);
   --ft-link: var(--theme-light);
   --ft-link-hover: var(--theme-light);
-  --ft-link-card: var(var(--theme-dark));
   --ft-main: var(--theme-light);
   --ft-about-text: #272727;
   --color-icon-hover: var(--theme-dark);
@@ -39,6 +38,7 @@
   --bg-icon-hover: var(--theme-light);
   --bg-body: #eeeeee;
   --bg-header: #eeeeee;
+  --bg-card-link: var(--theme-light);
 
   --color-btn: var(--theme-light);
 }
@@ -187,7 +187,7 @@ h2 {
 
 /*Projetos*/
 
-.projects{
+.projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,18 +195,14 @@ h2 {
   min-width: 30rem;
 }
 
-
 .swiper {
   width: 100%;
   height: 100%;
-  padding: 1rem;
   border-radius: 4px;
 }
 
 .swiper-slide {
-  text-align: center;
   padding: 3rem 2rem;
-  
 }
 
 .card-description {
@@ -214,7 +210,11 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.card-tecnolig {
+  text-align: left;
 }
 
 .swiper-slide img {
@@ -223,9 +223,10 @@ h2 {
 }
 
 .swiper {
+  border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0px 0px 21px 4px rgba(255,255,255,1);
+  box-shadow: 0px 7px 28px 9px rgba(0, 0, 0, 0.67);
 }
 
 .card-links {
@@ -239,8 +240,8 @@ h2 {
 .card-links a {
   font-size: 1.4rem;
   text-decoration: none;
-  color: black;
+  color: var(--ft-card-link);
   padding: 0.4rem 1.6rem;
   border-radius: 4px;
-  background: white;
+  border:1px solid var(--bg-card-link);
 }

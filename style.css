@@ -136,6 +136,7 @@ nav.active .menu {
 
 main {
   display: grid;
+  place-content: center;
   gap: 10rem;
   margin: 5rem 2rem;
   text-align: center;
@@ -184,7 +185,33 @@ main {
 
 /*Projetos*/
 
+.projects {
+  
+}
+.projects-card {
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  text-align: left;
+}
 
+.projects-card img {
+  border-radius: 8px;
+  width: 35rem;
+}
+
+.projects-card p{
+  margin: 2rem 0;
+  
+} 
+
+.projects-card a {
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 1rem;
+}
 
 
 

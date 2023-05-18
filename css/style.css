@@ -15,8 +15,10 @@
   --ft-link-hover: var(--theme-dark);
   --ft-main: var(--theme-dark);
   --ft-about-text: #b1acac;
+  --ft-card-link-hover: black;
   --color-icon-hover: black;
 
+  --bg-card-link-hover: var(--theme-dark);
   --bg-icon-hover: var(--theme-dark);
   --bg-body: #1f1e1e;
   --bg-header: #202020;
@@ -33,8 +35,10 @@
   --ft-link-hover: var(--theme-light);
   --ft-main: var(--theme-light);
   --ft-about-text: #272727;
+  --ft-card-link-hover: var(--theme-dark);
   --color-icon-hover: var(--theme-dark);
 
+  --bg-card-link-hover: var(--theme-light);
   --bg-icon-hover: var(--theme-light);
   --bg-body: #eeeeee;
   --bg-header: #eeeeee;
@@ -238,10 +242,17 @@ h2 {
 }
 
 .card-links a {
+  transition: ease 0.3s;
+  text-transform: uppercase;
   font-size: 1.4rem;
   text-decoration: none;
   color: var(--ft-card-link);
   padding: 0.4rem 1.6rem;
   border-radius: 4px;
-  border:1px solid var(--bg-card-link);
+  border: 1px solid var(--bg-card-link);
+}
+
+.card-links a:hover {
+  background-color: var(--bg-card-link-hover);
+  color: var(--ft-card-link-hover);
 }

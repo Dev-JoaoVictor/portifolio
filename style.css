@@ -143,18 +143,21 @@ main {
 
 /*Seção sobre*/
 
-.foto-perfil img {
+.profile-picture img {
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 50%;
   width: 20rem;
 }
 
-.sobre-texto {
+.about-name {
   font-size: 1.8rem;
 }
 
-.sobre-test {
+.about-text{
+  display: grid;
+  gap: 1rem;
+  text-align: left;
   margin-top: 2rem;
   font-size: 1.6rem;
   color: rgb(177, 172, 172);
@@ -179,22 +182,6 @@ main {
 }
 
 /*Projetos*/
-.projetos {
-  display: grid;
-  place-content: center;
-}
-
-.card-projetos img {
-  width: 30rem;
-  border-radius: 8px;
-}
-
-.card-description {
-  display: grid;
-  gap: 0.5rem;
-  font-size: 1.5rem;
-}
-
 
 
 

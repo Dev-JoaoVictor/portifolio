@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -168,41 +169,61 @@
         </div>
       </section>
       <section class="projects">
+        <h2>Projetos</h2>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img
-                class="swiper-slide-img"
-                src="assets/Captura de tela 2023-05-18 134416.png"
-                alt=""
-              />
-              <div class="project-description">
-                <p>
-                  Temporizador que auxilia nos estudos mantendo foco e
-                  desempenho.
-                </p>
-                <p><strong>Stack:</strong> HTML, CSS e Javascript</p>
+              <img src="assets/Captura de tela 2023-05-18 134416.png" alt="">
+              <div class="card-description">
+                <p>Temporizador que auxilia na concentração e desempenho nos estudos</p>
+                <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
               </div>
-              <div class="projects-links">
-                <a href="#">Projeto</a>
-                <a href="#">Repositório</a>
+              <div class="card-links">
+                <a href="">Projeto</a>
+                <a href="">Repositório</a>
               </div>
             </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+            <div class="swiper-slide">
+              <img src="assets/Captura de tela 2023-05-18 134416.png" alt="">
+              <div class="card-description">
+                <p>Temporizador que auxilia na concentração e desempenho nos estudos</p>
+                <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+              </div>
+              <div class="card-links">
+                <a href="">Projeto</a>
+                <a href="">Repositório</a>
+              </div>
+            </div>
+          </div>          
+          
           <div class="swiper-pagination"></div>
         </div>
       </section>
-    </main>
+    </main> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="script.js" type="module"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
-  <script src="script.js" type="module"></script>
-  <script
-    type="module"
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-  ></script>
-  <script
-    nomodule
-    src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-  ></script>
 </html>

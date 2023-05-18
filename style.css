@@ -15,6 +15,7 @@
   --ft-link-hover: var(--theme-dark);
   --ft-main: var(--theme-dark);
   --ft-link-card: var(var(--theme-dark));
+  --ft-about-text: #b1acac;
   --color-icon-hover: black;
 
   --bg-icon-hover: var(--theme-dark);
@@ -32,6 +33,7 @@
   --ft-link-hover: var(--theme-light);
   --ft-link-card: var(var(--theme-dark));
   --ft-main: var(--theme-light);
+  --ft-about-text: #272727;
   --color-icon-hover: var(--theme-dark);
 
   --bg-icon-hover: var(--theme-light);
@@ -157,10 +159,9 @@ main {
 .about-text{
   display: grid;
   gap: 1rem;
-  text-align: left;
   margin-top: 2rem;
   font-size: 1.6rem;
-  color: rgb(177, 172, 172);
+  color: var(--ft-about-text);
 }
 
 /*Skills*/

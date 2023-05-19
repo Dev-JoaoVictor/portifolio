@@ -15,7 +15,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(160, 160, 160);
+  
   border-radius: 8px;
 }
 
@@ -40,9 +40,9 @@
   font-size: 1.5rem;
   margin: 2rem 0;
   padding: 1rem 3rem;
-  color: white;
+  color: var(--link-card);
   text-transform: uppercase;
-  border: 1px solid white;
+  border: 1px solid;
   border-radius: 4px;
   display: block;
 }

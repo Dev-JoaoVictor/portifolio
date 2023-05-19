@@ -22,14 +22,13 @@
   --ft-link-hover: var(--theme-dark);
   --ft-main: var(--theme-dark);
   --ft-about-text: #b1acac;
-  --ft-card-link-hover: black;
   --color-icon-hover: black;
+  --link-card: var(--theme-dark)
 
   --bg-card-link-hover: var(--theme-dark);
   --bg-icon-hover: var(--theme-dark);
   --bg-body: #1f1e1e;
   --bg-header: #202020;
-  --bg-card-link: var(--theme-dark);
 
   --color-btn: var(--theme-dark);
 }
@@ -42,14 +41,14 @@
   --ft-link-hover: var(--theme-light);
   --ft-main: var(--theme-light);
   --ft-about-text: #272727;
-  --ft-card-link-hover: var(--theme-dark);
+  --link-card: var(--theme-light)
   --color-icon-hover: var(--theme-dark);
 
   --bg-card-link-hover: var(--theme-light);
   --bg-icon-hover: var(--theme-light);
   --bg-body: #eeeeee;
   --bg-header: #eeeeee;
-  --bg-card-link: var(--theme-light);
+
 
   --color-btn: var(--theme-light);
 }

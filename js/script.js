@@ -1,5 +1,5 @@
-import { Controls } from "./js/controls.js";
-import { Events } from "./js/events.js";
+import { Controls } from "./controls.js";
+import { Events } from "./events.js";
 import {
   body,
   btnMenu,
@@ -8,7 +8,7 @@ import {
   buttonMoon,
   buttonSun,
   nav,
-} from "./js/elements.js";
+} from "./elements.js";
 
 const controls = Controls({
   body,

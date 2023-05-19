@@ -1,0 +1,17 @@
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.skills-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skills-img svg {
+  width: 4rem;
+  height: 4rem;
+}

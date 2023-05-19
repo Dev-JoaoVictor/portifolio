@@ -11,7 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- SwiperJs-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -170,24 +174,37 @@
       </section>
       <section class="projects">
         <h2>Projetos</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/pomodoro.png" alt="" />
+              <div class="swiper-description">
+                <p class="swiper-description-title">Pomodoro 2.0</p>
+                <p>Tecnologias: HTML, CSS e JavaScript</p>
+              </div>
+              <div class="swipper-links">
+                <a href="">Projeto</a>
+                <a href="">Repositório</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/pomodoro.png" alt="" />
+              <div class="swiper-description">
+                <p class="swiper-description-title">Pomodoro 2.0</p>
+                <p>Tecnologias: HTML, CSS e JavaScript</p>
+              </div>
+              <div class="swipper-links">
+                <a href="">Projeto</a>
+                <a href="">Repositório</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
-    </main> 
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+    <script src="js/carrosel.js"></script>
     <script src="./js/script.js" type="module"></script>
     <script
       type="module"

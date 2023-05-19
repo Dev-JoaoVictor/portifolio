@@ -65,6 +65,7 @@ button {
   color: var(--ft-link);
   font-size: 2rem;
   text-decoration: none;
+  transition: ease 0.1s;
 }
 
 .menu a:hover {
@@ -78,4 +79,22 @@ nav.active .menu {
   padding-top: 2rem;
   visibility: visible;
   height: 7rem;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .theme ion-icon {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px){
+
+  .btn-menu {
+    display: none;
+  }
 }

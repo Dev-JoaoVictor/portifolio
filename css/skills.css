@@ -16,3 +16,13 @@ h2 {
   width: 4rem;
   height: 4rem;
 }
+
+@media (min-width: 768px) {
+  .skills {
+    margin: 10rem 0;
+  }
+  .skills-img svg {
+    width: 6rem;
+    height: 6rem;
+  }
+}

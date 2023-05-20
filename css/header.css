@@ -19,6 +19,7 @@ header {
   margin-left: 10rem;
   margin-top: 0.3rem;
   font-size: 3rem;
+  cursor: pointer;
 }
 
 .theme-dark-button {

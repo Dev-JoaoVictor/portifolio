@@ -31,3 +31,12 @@
     width: 50rem;
   }
 }
+
+
+@media (min-width: 1024px) {
+  .about {
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+}

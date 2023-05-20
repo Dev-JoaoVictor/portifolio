@@ -51,11 +51,27 @@
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .swiper {
-    padding: 0 20rem ;
+    padding: 0 20rem;
   }
   .swiper-slide {
     width: 100rem;
   }
 }
+
+@media (min-width: 900px) {
+  .projects {
+    padding:0;
+  }
+  .swiper {
+    padding: 2rem 35rem ;
+  }
+  .swiper-slide {
+    width: 100rem;
+  }
+}
+
+/* .swiper {
+  padding: 2rem 70rem ;
+} */

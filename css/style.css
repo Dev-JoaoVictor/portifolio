@@ -28,7 +28,7 @@
   --color-icon-hover: black;
   --link-card: var(--theme-dark);
 
-
+  --br-link: var(--theme-dark);
   --bg-link-hover: var(--theme-dark);
   --bg-icon-hover: var(--theme-dark);
   --bg-body: #1f1e1e;
@@ -51,6 +51,7 @@
   --ft-link-hover: white;
   --color-icon-hover: var(--theme-dark);
   
+  --br-link: var(--theme-light);
   --bg-link-hover: var(--theme-light);
   --bg-card-link-hover: var(--theme-light);
   --bg-icon-hover: var(--theme-light);

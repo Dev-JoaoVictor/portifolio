@@ -12,7 +12,6 @@
   border: none;
 }
 
-
 :root {
   font-size: 62.5%;
 
@@ -34,7 +33,7 @@
   --bg-body: #1f1e1e;
   --bg-header: #202020;
   --bg-menu-hover: var(--theme-dark);
-  --fill-icon: var(--theme-dark)
+  --fill-icon: var(--theme-dark);
   --color-btn: var(--theme-dark);
 }
 
@@ -50,7 +49,7 @@
   --ft-link-card: var(--theme-light);
   --ft-link-hover: white;
   --color-icon-hover: var(--theme-dark);
-  
+
   --br-link: var(--theme-light);
   --bg-link-hover: var(--theme-light);
   --bg-card-link-hover: var(--theme-light);
@@ -60,7 +59,6 @@
   --bg-menu-hover: var(--theme-light);
   --fill-icon: var(--theme-light);
 
-
   --color-btn: var(--theme-light);
 }
 
@@ -68,4 +66,11 @@ body {
   background-color: var(--bg-body);
   font-family: "Poppins", sans-serif;
   transition: ease 0.5s;
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+  visibility: hidden;
 }

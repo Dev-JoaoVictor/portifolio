@@ -21,3 +21,10 @@ const controls = Controls({
 });
 
 Events({ controls });
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal(".about", { duration: 1000 });
+sr.reveal(".skills", { duration: 1500 });
+sr.reveal(".projects", { duration: 1500 });
+sr.reveal(".contact", { duration: 1500 });

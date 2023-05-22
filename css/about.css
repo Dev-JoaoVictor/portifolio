@@ -17,6 +17,8 @@
   color: var(--ft-about-text);
 }
 
+
+
 @media (min-width: 768px) {
   .about {
     display: flex;

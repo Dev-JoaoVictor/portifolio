@@ -3,7 +3,6 @@
 }
 .projects-container {
   display: flex;
-  padding: 0 3rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -18,7 +17,7 @@
 }
 
 .projects-card img {
-  width: 100%;
+  width: 30rem;
   height: 20rem;
   border-radius: 4px 4px 0 0;
 }

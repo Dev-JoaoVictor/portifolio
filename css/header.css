@@ -63,7 +63,7 @@ button {
   margin: 0 1rem;
   padding: 1rem 0;
   color: var(--ft-link);
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-decoration: none;
   transition: ease 0.1s;
 }

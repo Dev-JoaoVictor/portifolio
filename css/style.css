@@ -49,7 +49,7 @@
   --ft-link-card: var(--theme-light);
   --ft-link-hover: white;
   --color-icon-hover: var(--theme-dark);
-
+  --link-card: var(--theme-light);
   --br-link: var(--theme-light);
   --bg-link-hover: var(--theme-light);
   --bg-card-link-hover: var(--theme-light);
